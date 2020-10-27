@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChristianArtiedaExamen.MainPage">
+
+    <StackLayout>
+               <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"
+               HeightRequest="100" />
+
+        <Label Text="Empresa Cursos Online" FontSize="30"></Label>
+
+        <Entry x:Name="txtUser"
+               Placeholder="Ingrese el Usuario: ">
+        </Entry>
+
+        <Entry x:Name="txtPass"
+               Placeholder="Ingrese el Password: "
+               IsPassword="True">
+        </Entry>
+
+        <Button x:Name="btnAbrirRegistro"
+                    Text="Iniciar Sesión"
+                    Clicked="btnAbrirRegistro_clicked">
+        </Button>
+
+    </StackLayout>
+</ContentPage>
